@@ -4,7 +4,7 @@ int main(){
     
     
     Dicionarie pLista;
-    iniciarDicionario(&pLista);
+    //iniciarDicionario(&pLista);
     constroiDicionario(&pLista);
     imprimeTudoDicionario(&pLista);
     

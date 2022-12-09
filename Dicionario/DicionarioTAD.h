@@ -2,7 +2,7 @@
  * Trabalho Prático 01 - AEDS 1 
  * Professora Thais R. M. Braga Silva
  * Universidade Federal de Virçosa - Campus Florestal
- * @author Adriano Ferreira - 4228, Aymê Faustino - 4704, Vitor Hugo - 4684
+ * @author Adriano Ferreira - 4228 e Vitor Hugo - 4684
  * @version 0.1
  * @since 11 de out
 */

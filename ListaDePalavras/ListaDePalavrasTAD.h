@@ -2,7 +2,7 @@
  * Trabalho Prático 01 - AEDS 1 
  * Professora Thais R. M. Braga Silva
  * Universidade Federal de Virçosa - Campus Florestal
- * @author Adriano Ferreira - 4228, Aymê Faustino - 4704, Vitor Hugo - 4684
+ * @author Adriano Ferreira - 4228 e Vitor Hugo - 4684
  * @version 0.1
  * @since 11 de out
 */
@@ -16,15 +16,15 @@
 
 typedef struct celula{
     Palavra caracteres ;
-    struct celula* prox; 
+    //struct celula* prox; 
 } CelulaLista;
 
-typedef struct{
+/*typedef struct{
     CelulaLista* primeiroLista;
     CelulaLista* ultimoLista;
     int qtd;
 } listaWord;
-
+*/
 void Cria_ListadPalavras(listaWord *pLista);                             //Cria lista de Palavras
 void Insere_fim (listaWord *pLista, Palavra *pPalavra);                  //(Insere palavra no final)
 void Remove_palavra(listaWord *pLista, char *palavra);                   //(Remove a palavra dada a palavra)

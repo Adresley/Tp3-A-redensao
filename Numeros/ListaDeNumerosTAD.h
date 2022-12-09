@@ -21,15 +21,15 @@
  typedef struct listaNum
  {
    int numero;
-   struct listaNum* pProx;
+   //struct listaNum* pProx;
 
  }CelulaNumeros;
-
+/*
  typedef struct{
    CelulaNumeros* primeiroLista;
    CelulaNumeros* ultimoLista;
 
- }ListadeNumeros;
+ }ListadeNumeros;*/
 
 
 

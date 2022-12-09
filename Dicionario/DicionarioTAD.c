@@ -1,15 +1,15 @@
 #include "DicionarioTAD.h"
-
+/*
 void iniciarDicionario(Dicionarie *pLista){
       pLista->primeiroListaPalavras = (CelulaListaPalavras*)malloc(sizeof(CelulaListaPalavras));
       pLista->ultimoListaPalavras = pLista->primeiroListaPalavras;
       pLista->ultimoListaPalavras->prox = NULL;
-}
+}*/
 
-int estaVazia(Dicionarie* pLista){
+/*int estaVazia(Dicionarie* pLista){
 
    return (pLista->ultimoListaPalavras == NULL);
-}
+}*/
 
 
 
