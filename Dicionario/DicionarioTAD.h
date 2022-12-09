@@ -17,14 +17,14 @@
 typedef struct celulalista{
     listaWord listaPalavraPorLetra;
     char letraLista;
-    struct celulalista* prox; 
+    //struct celulalista* prox; 
 } CelulaListaPalavras;
 
-typedef struct{
+/*typedef struct{
     CelulaListaPalavras* primeiroListaPalavras;
     CelulaListaPalavras* ultimoListaPalavras;
 } Dicionarie;
-
+*/
 char* lerStringSeguramente(char* string, int tamanho);
 void iniciarDicionario(Dicionarie *pLista);
 void constroiDicionario(Dicionarie *pLista);
